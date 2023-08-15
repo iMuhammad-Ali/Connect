@@ -1,0 +1,16 @@
+.Loader {
+    border: 10px solid #7554b8a2;
+    border-bottom-color: #7a54c5;
+    border-bottom-color: #4f11cc1b;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,20 @@
+.Loader {
+    /* margin: 100px auto; */
+    /* display: block; */
+    width: 12px;
+    height: 12px;
+    border: 2px solid #4f11cc69;
+    border-bottom-color: #5011CC;
+    border-radius: 50%;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

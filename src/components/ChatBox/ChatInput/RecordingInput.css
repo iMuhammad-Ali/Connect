@@ -1,0 +1,25 @@
+@keyframes blink {
+    50%, 100% {
+      color: gray; /* Change back to the original color halfway through the animation */
+    }
+    50%, 0% {
+      color: rgb(206, 75, 75); /* Change to the desired blinking color */
+    }
+  }
+
+  .microphone-animation {
+    animation: blink 1s infinite; /* Adjust the animation duration (1s in this case) as needed */
+  }
+
+  @keyframes blink-input {
+    50%, 100% {
+      background-color: rgb(243 244 246);
+    }
+    50%, 0% {
+      background-color: #ffcfcf;
+    }
+  }
+
+  .input-animation {
+    animation: blink-input 1s infinite; /* Adjust the animation duration (1s in this case) as needed */
+  }
